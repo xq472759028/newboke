@@ -1,0 +1,102 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+header {
+  width: 100%;
+  height: 0.5rem;
+  background: #fff; }
+
+.headerbox {
+  width: 3%;
+  float: left;
+  margin-left: 0.1rem; }
+
+.back {
+  display: block;
+  width: .5rem;
+  line-height: 0.5rem;
+  color: #000;
+  font-size: .3rem;
+  font-family: "宋体"; }
+
+.header-center {
+  width: 1.2rem;
+  height: 100%;
+  background: #ffffff;
+  margin: 0 auto;
+  display: flex; }
+
+.header-left {
+  display: block;
+  width: 0.59rem;
+  height: 0.48rem;
+  background: #ffffff;
+  border-right: 0.01rem solid #f0f0f0;
+  font-size: 0.15rem;
+  color: #121212;
+  text-align: center;
+  line-height: 0.48rem; }
+
+.header-right {
+  display: block;
+  width: 0.6rem;
+  height: 0.48rem;
+  background: #ffffff;
+  border-bottom: 0.02rem solid #f2595b;
+  font-size: 0.15rem;
+  color: #f46e6d;
+  text-align: center;
+  line-height: 0.48rem; }
+
+.wenzi {
+  width: 3.5rem;
+  height: auto;
+  background: #ffffff; }
+
+.wenzi1 {
+  width: 3.35rem;
+  height: auto;
+  background: #ffffff;
+  padding-left: 0.15rem;
+  padding-top: 0.08rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.qingnain {
+  width: 1.2rem;
+  height: 0.12rem;
+  background: #ffffff;
+  font-size: 0.1rem;
+  color: #d4d4d4; }
+
+.wsm {
+  display: block;
+  width: 3.23rem;
+  height: 0.42rem;
+  background: #ffffff;
+  font-size: 0.15rem;
+  color: #1e1e1e; }
+
+.yuedu {
+  width: 1.9rem;
+  height: 0.1rem;
+  background: #ffffff;
+  font-size: 0.05rem;
+  color: #b2b2b2;
+  margin-top: 0.1rem; }
+
+.tupian {
+  width: 100%;
+  height: 2rem;
+  background: red; }
+
+.tupian img {
+  width: 100%;
+  height: 100%; }
